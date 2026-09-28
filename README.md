@@ -123,11 +123,11 @@ contains two key-value pairs.
 
 There is an example of how to extract the various data provided in `JSONDemo.java`.
 
-- **Read `src/main/java/org/translation/JSONDemo.java` and predict what the code
+- **Read [JSONDemo.java](src/main/java/examples/JSONDemo.java) and predict what the code
   will output before running it to confirm.**
 
 #### Understanding our data
-Open the `src/main/resources/sample.json` file. It contains the JSON data we'll be
+Open the [sample.json](src/main/resources/sample.json) file. It contains the JSON data we'll be
 using for this program. It is like the small example we just saw, but contains many more entries.
 Each object will have exactly the same keys as listed below:
 - `"id"`: an integer uniquely identifying each object
@@ -137,7 +137,7 @@ Each object will have exactly the same keys as listed below:
 
 Note that this data is all in terms of **country codes** and **language codes**, which aren't likely
 that intuitive for a user of our program. To help our users, we'll also use data from
-`src/main/resources/country-codes.txt` and `src/main/resources/language-codes.txt`.
+[country-codes.txt](src/main/resources/country-codes.txt) and [language-codes.txt](src/main/resources/language-codes.txt).
 
 These other two data files are tab (`"\t"`) delimited and contain mappings between English
 names of countries/languages and their corresponding codes.
